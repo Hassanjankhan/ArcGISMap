@@ -5,8 +5,8 @@ import React, {
 } from 'react-native';
 var LAYERS = [
     {
-        type: 'ArcGISTiledMapServiceLayer',
-        url: 'http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer'
+        type: 'ArcGISTiledMapService',
+        url: 'https://services.gisqatar.org.qa/server/rest/services/Vector/Qatar_StreetMap_Hybrid_E/MapServer'
     },
 ];
 const ArcGISMap = requireNativeComponent("ArcGISMap");
